@@ -1,0 +1,70 @@
+ .notification{
+    margin: 0 1.2% 0 21.92%;
+    border-radius: 10px;
+ }
+ 
+.req{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    
+   
+}
+.frit{
+    margin: 11px 0 0 30px;
+}
+.flex-it{
+    display: flex;
+   float: right;
+   margin: 0 0 0 auto;
+}
+
+.enter-img{
+    width: 30px;
+    margin: -40px 0px 0 0px;
+     background-color: green;
+     opacity: 0;
+}
+
+.user-home{
+    width: 40px;  }
+
+.user-input{
+    display: flex;
+    width: 40px;
+    flex-wrap:wrap;
+    margin: 0 0 0 20px;
+}
+
+@media screen and (max-width:900px) {
+   .home{
+    margin-left: 0;
+    margin-right:0%;
+    position:-ms-page;
+   
+   
+}
+
+.notification{
+    margin: 0 1.2% 0 1.92%;
+    border-radius: 10px;
+ }
+
+ .fwd{
+   
+    margin: 0;
+ }
+ .bn{
+    
+    width: 30px;
+    height: 30px;
+    margin: 10px 5px 20px 5px;
+    background-color: red;
+ }
+ .req-btn{
+    margin: 0 0 10px 10px ;
+   
+ }
+}

@@ -1,0 +1,111 @@
+
+
+.navbar{
+    display: inline;
+    position: absolute;
+    width: 22%;
+    height: 100%;
+    display: inline-block;
+ background-color: lightgray;
+}
+.logo{
+    margin: 1.7em 0 0 2.8em;
+}
+
+.dash{
+    width: 200px;
+    height: 40px;
+    border: 1px solid gray;
+     background-color: #525ffd;
+    border-radius: 10px;
+    margin: .5em 0 1.5em 1.5em;
+    font-size: 1.2em;
+    color: white;
+}
+ul li {
+margin: 10px 0 0 2.3em;
+list-style-type: none;
+
+line-height: 2em;
+}
+
+.chat{
+    margin-top: 2em;
+    margin-left: 1.4em;
+}
+
+a{
+   color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: lightslategray;
+}
+.home-now {
+    display: none;
+}
+.dash-log{
+    color: white;
+}
+
+@media screen and (max-width:900px) {
+   .navbar{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #525ffd;
+
+}
+.logo{
+ display: none;
+}
+
+.dash{
+    
+    display: block;
+    border: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 0;
+    margin: 10px 20px;
+    width: auto;
+}
+
+.dash-log{
+    display: none;
+}
+
+ul li {
+    margin: 10px 0 0 2.3em;
+    list-style-type: none;
+    line-height: 2em;
+}
+.open-btn{
+display: none;
+}
+.is-open{
+    display: block;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+.chat{
+     
+    margin-top: 2em;
+    margin-left: 1.4em;
+}
+
+a{
+   color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: lightslategray;
+}
+
+
+}
+

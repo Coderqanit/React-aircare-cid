@@ -1,0 +1,434 @@
+
+.home{
+    margin-left: 22.5%;
+    margin-right: .6%;
+    position:-ms-page;
+   
+}
+.heading{
+    display: flex;
+    height: 60px;
+   margin: 5px 0 0 0;
+   width: 100;
+  
+}
+.head{
+    width: 400px;
+    margin: 10px  40px 0 40px;
+   
+}
+.user-img{
+    width: 30px;
+    margin: 0 0 0 30px;
+}
+.s-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 0 auto;
+}
+
+#search {
+     
+  border: none;  
+  border-collapse: collapse;
+    height: 40px;
+    margin: 0;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+}
+.ok{
+    display: flex;
+    margin: 10px 0px 0 0%;
+    justify-content: space-evenly;
+  
+
+}
+
+.alarm{
+  width: 40px;
+    height: 35px;
+      margin: 0px 20px 0 10px;
+   
+}
+.ms{
+       margin: 0px 0px 0 20px;
+}
+
+.enter-img{
+    width: 30px;
+    margin: -40px 0px 0 0px;
+     background-color: green;
+     opacity: 0;
+}
+
+.user-home{
+    width: 40px;  }
+
+.user-input{
+    display: flex;
+    width: 40px;
+    flex-wrap:wrap;
+    margin: 0 0 0 20px;
+}
+.head2{
+    width: 100%;
+  
+    margin-top: .3%;
+    margin-right: 5%;
+    background-color:#525ffd;
+    width: 100%;
+      height: 180px;
+    color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    border: 1px solid #525ffd ;
+    border-radius: 5px ;
+}
+.container-wel{
+ display: flex;
+}
+.welcome{
+    line-height: 50px;
+    font-size:1.2em ;
+    font-weight: bold;
+    display: inline-block;
+    width: 75%;
+    position: relative;
+  margin-left: 30px;
+  
+}
+.welcome span{
+    color: white;
+}
+.wel-img img{
+   
+    height: 160px;
+    position: absolute;
+    margin: 10px 0 0 0%;
+}
+
+
+.svg{
+    display: flex;
+    gap: 2em;
+    margin: 1% 0 0 0 ;
+}
+.svg1{
+    width: 40px;
+    border-radius:10px ;
+    margin: 0px 5px 0 20px;
+    
+   
+}
+
+.svg2{
+    width: 40px;
+    border-radius:10px ;
+    margin: 0px 5px 0 20px;
+    
+}
+
+.svg3{
+    width: 40px;
+    border-radius:10px ;
+    margin: 0px 5px 0 20px;
+    color: blue;
+    
+}
+.box path{
+    fill: yellow;
+}
+.box{
+    background-color: whitesmoke;
+    width: 50%;
+    height: 100px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px .2px gray,
+                 -1px -1px 3px .2px gray;
+
+}
+
+.num{
+    display: flex;
+    flex-direction: column;
+      margin: 25px 5px 0 20px;
+}
+.progress{
+    font-weight: bold;
+    font-size: 22px;
+     margin: 3px  0 0 10px;
+}
+
+.table-content  {
+  font-size: large;
+  
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left;
+  width: 100%;
+  margin: 4px  0 0 0;
+  box-sizing: border-box;
+  
+}
+table, th, td{
+    border-collapse: collapse;
+}
+
+
+ .tbhead  th {
+margin: 0 0 10px  0;
+color: white;
+overflow: hidden;
+background-color: #525ffd;
+height: 40px;
+text-align: center;
+box-sizing: border-box;
+
+}
+
+tbody tr:nth-child(even){
+ background-color: lightgray;
+height: 40px;
+text-align: center;
+ 
+}
+tbody tr:nth-child(odd){
+    height: 40px;
+   text-align: center;
+}
+
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   margin-top: 5px;
+}
+.right{
+    width: 50px;
+    height: 30px;
+     margin: 0px 10px  0 0px ;
+}
+.left{
+    width: 50px;
+    height: 30px;
+}
+
+#pending{
+color: yellow;
+font-weight: bold;
+}
+#failed{
+color: red;
+font-weight: bold;
+}
+#success{
+color: green;
+font-weight: bold;
+}
+
+@media screen and (max-width:900px) {
+   .home{
+    margin-left: 0;
+    margin-right: .6%;
+    position:-ms-page;
+   
+} 
+.head{
+    display: block;
+}
+}
+
+
+
+@media screen and (max-width:550px) {
+   .home{
+    margin-left: 2%;
+    margin-right: 0%;
+    width: 98%;
+    position:relative;
+      font-size: 12px;
+    
+   
+} .heading{
+    display: flex;
+    height: 60px;
+   margin: 5px 0 0 auto;
+   width: 100%;
+
+  
+}
+
+.head{
+    display: none;
+}
+.s-bar{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin: auto;
+}
+
+
+.user-img{
+    width: 10px;
+    margin: 0 0 0 30px;
+}
+
+
+
+.search{
+    display: flex;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 10px 20px 10px 10px;
+}
+
+.search input{
+    width: 100px;
+}
+.search input:focus{
+    width: none;
+    border: none;
+    
+   
+}
+
+.alarm{
+  width: 10px;
+    height: 13px;
+      margin: 0px 30px 0 20px;
+   
+}
+.ms{
+       margin: 0px 3px 0 20px;
+}
+
+.enter-img{
+    width: 10px;
+    margin: -40px 0px 0 0px;
+     background-color: green;
+     opacity: 0;
+}
+
+.user-home{
+    border-radius: 50px;
+}
+
+
+
+.head2{
+    width: 100%;
+    height: 100%;
+    margin-top: .3%;
+    margin-right: 5%;
+    background-color: #525ffd;
+    width: 100%;
+    height:150px;
+    color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    border: 1px solid #525ffd ;
+    border-radius: 5px ;
+}
+.container-wel{
+ display: flex;
+}
+.welcome{
+    line-height: 50px;
+    font-size:1.2em ;
+    font-weight: bold;
+    display: inline-block;
+    width: 50%;
+    position: relative;
+  margin-left: 5px;
+  
+}
+.welcome span{
+    color: white;
+}
+.wel-img img{
+   width: 150px;
+    height: 135px;
+    position: absolute;
+    margin: 10px 0 0 0%;
+}
+
+
+
+.svg{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 100%;
+    height: 200px;
+    margin: 5% 0 30px 5px ;
+}
+
+.svg1{
+    width: 30px;
+    border-radius:10px ;
+    margin: 15px 0px 0 20px;
+    
+   
+}
+
+.svg2{
+       width: 30px;
+    border-radius:10px ;
+    margin: 0px 5px 0 20px;
+    
+}
+
+.svg3{
+       width: 30px;
+    border-radius:10px ;
+    margin: 0px 5px 0 20px;
+    
+}
+.box{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px .2px gray,
+                 -1px -1px 3px .2px gray;
+
+}
+
+.svg3{
+    width: 60px;
+    border-radius:10px ;
+    margin: 0px 5px 0 20px;
+    color: blue;
+    
+}
+
+.table-content  {
+  font-size: large;
+  height: 80vh;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left;
+  width: 100%;
+  margin: 4px  0 0 0;
+  box-sizing: border-box;
+  
+}
+}
