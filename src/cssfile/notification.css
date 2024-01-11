@@ -71,6 +71,7 @@
 .notification{
     margin: 0 1.2% 0 1.92%;
     border-radius: 10px;
+    height: 115vh;
  }
 
  .fwd{
