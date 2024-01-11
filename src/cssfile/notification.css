@@ -28,6 +28,7 @@
      opacity: 0;
 }
 
+
 .user-home{
     width: 40px;  }
 
@@ -37,6 +38,26 @@
     flex-wrap:wrap;
     margin: 0 0 0 20px;
 }
+
+.bn{
+    
+    width: 30px;
+    height: 30px;
+    margin: 10px 5px 20px 5px;
+    border-radius: 5px;
+   
+ }
+
+  .notify .noti {
+    
+    font-size: 1.8em;
+    height: 40px;
+
+}
+
+ .bn:hover{
+ background-color: yellow;
+ }
 
 @media screen and (max-width:900px) {
    .home{
@@ -61,10 +82,35 @@
     width: 30px;
     height: 30px;
     margin: 10px 5px 20px 5px;
-    background-color: red;
+    border-radius: 5px;
+   
+ }
+ .bn:hover{
+ background-color: yellow;
  }
  .req-btn{
     margin: 0 0 10px 10px ;
    
  }
+
+ .notify .noti {
+    
+    font-size: .8em;
+
+}
+.btn-ctr{
+    display: flex;
+    
+}
+}
+
+@media screen and (max-width:500px) {
+   .home{
+    margin-left: 0;
+    margin-right:0%;
+    position:-ms-page;
+   
+   
+}
+
 }
