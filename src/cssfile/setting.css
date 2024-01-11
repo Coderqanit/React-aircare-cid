@@ -123,14 +123,30 @@
     margin-left: 0;
     margin-right:0%;
     position:-ms-page;
-   
-   
+    
+    
 } 
 
-.acc-setting .upload{
-    margin:0 ;
-    background-color: red;
+.setting{
+    height: 115vh;
+    
 }
 
+.frit{
+    font-size: 1.4em;
+}
+.setting .req{
+    margin: 0;
+    height: 40px;
+}
+.upload{
+    display: flex;
+    height: 40px;
+    margin:0px 0px 0px 70px ;
+}
+
+.setting-img{
+    width: 40px;
+}
 
 }
